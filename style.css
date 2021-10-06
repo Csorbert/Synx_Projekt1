@@ -1,0 +1,55 @@
+body {
+    font-size: 125%;
+    background: greenyellow;
+}
+
+.navbar-brand {
+    font-size: 150%;
+    text-shadow: 0px 0px 5px white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: cyan;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+#active {
+    color: red;
+    cursor: not-allowed;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+hr {
+    border: 3px solid cyan;
+    border-radius: 20px;
+}
+
+.sorkizart {
+    text-align: justify;
+}

@@ -4,63 +4,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <script src="Komplex.js"></script>
     <title>Kérdések</title>
 </head>
 
 <body>
-    <h1 id="h1">Komplex számok - kérdések</h1>
-    <h2 id="h2-1">Milyen betűvel jelöljük a komplex számok halmazát?</h2>
-    <ol>
-        <li>Z</li>
-        <li>Q</li>
-        <li>R</li>
-        <li>C</li>
-    </ol>
-    <h2 id="h2-2">Miért volt szükség a komplex számokra?</h2>
-    <ol>
-        <li id="li1">Mindig elvégezhető legyen a kivonás.</li>
-        <li id="li2">Azért, hogy az osztások eredményét meg tudják adni.</li>
-        <li id="li3">A negatív számokból is lehessen gyököt vonni.</li>
-        <li id="li4">A kettes számrendszer használatához.</li>
-    </ol>
-    <h2 id="h2-3">Melyik matematikus NEM versengett a harmadfokú egyenlet megoldóképletének felfedezéséért?</h2>
-    <ol>
-        <li>Enrico Betti</li>
-        <li>Scipione del Ferro</li>
-        <li>Nicolo Fontana, Tartaglia</li>
-        <li>Girolamo Cardano</li>
-    </ol>
-    <h2 id="h2-4">A komplex számok jelölésére használt kifejezés</h2>
-    <ol>
-        <li>z = 0 + b</li>
-        <li>z = a + bi</li>
-        <li>z = ai + bi</li>
-        <li>z = (a + b)i</li>
-    </ol>
-    <h2 id="h2-5">A komplex számok ábrázolására használt síkot hogyan szokás nevezni?</h2>
-    <ol>
-        <li id="li5">Gauss-féle számsík</li>
-        <li id="li6">Neumann sík</li>
-        <li id="li7">Descartes-féle sík</li>
-        <li id="li8">Cardano-féle számsík</li>
-    </ol>
-    <h2 id="h2-6">A z<sub>1</sub> = a<sub>1</sub> + b<sub>1</sub>i és z<sub>2</sub> = a<sub>2</sub> + b<sub>2</sub>i komplex
-        számok összege</h2>
-    <ol>
-        <li>a<sub>1</sub> + a<sub>2</sub> + b<sub>1</sub> + b<sub>2</sub></li>
-        <li>(a<sub>1</sub> + b<sub>1</sub>) + (a<sub>2</sub> + b<sub>2</sub>)i</li>
-        <li>(a<sub>1</sub> + a<sub>2</sub>) + (b<sub>1</sub> + b<sub>2</sub>)i</li>
-        <li>(a<sub>1</sub> + a<sub>2</sub>)i + (b<sub>1</sub> + b<sub>2</sub>)i</li>
-    </ol>
-    <h2 id="h2-7">Mire NEM használjuk a komplex számokat?</h2>
-    <ol>
-        <li id="li9">Kombinatorika</li>
-        <li id="li10">Egyenletek megoldása</li>
-        <li id="li11">Geometriai alakzatok, valós függvények megértése</li>
-        <li id="li12">Kvantummechanika</li>
-    </ol>
-    <button onclick="Translation()"><img src="images/translation-icon.png" alt="Translation"></button>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark p-3">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand text-white">Komplex Számok</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Komplex_main.html">Kezdőlap</a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a class="nav-link" href="Komplex_eng.html">Home</a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a class="nav-link" id="active">Kérdések</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container content my-5 py-2">
+        <h1 id="h1">Komplex számok - kérdések</h1>
+    </header>
+
+    <main class="container content">
+        <br>
+        <hr class="my-3 mx-5 p-1">
+
+
+        <h2 id="h2-1">Milyen betűvel jelöljük a komplex számok halmazát?</h2>
+
+
+        <article class="row sorkizart">
+            <div class="col-12">
+                <ol>
+                    <li>Z</li>
+                    <li>Q</li>
+                    <li>R</li>
+                    <li>C</li>
+                </ol>
+            </div>
+        </article>
+
+        <hr class="my-3 mx-5 p-1">
+
+        <input type="text" placeholder="Válasz:">
+
+        <hr class="my-3 mx-5 p-1">
+
+
+        <h2 id="h2-2">Miért volt szükség a komplex számokra?</h2>
+
+        
+        <article class="row sorkizart">
+            <div class="col-12">
+                <ol>
+                    <li id="li1">Mindig elvégezhető legyen a kivonás.</li>
+                    <li id="li2">Azért, hogy az osztások eredményét meg tudják adni.</li>
+                    <li id="li3">A negatív számokból is lehessen gyököt vonni.</li>
+                    <li id="li4">A kettes számrendszer használatához.</li>
+                </ol>
+            </div>
+        </article>
+
+        <hr class="my-3 mx-5 p-1">
+
+        <input type="text" placeholder="Válasz:">
+
+        <hr class="my-3 mx-5 p-1">
+
+
+        <h2 id="h2-3">Melyik matematikus NEM versengett a harmadfokú egyenlet megoldóképletének felfedezéséért?</h2>
+
+
+        <article class="row sorkizart">
+            <div class="col-12">
+                <ol>
+                    <li>Enrico Betti</li>
+                    <li>Scipione del Ferro</li>
+                    <li>Nicolo Fontana, Tartaglia</li>
+                    <li>Girolamo Cardano</li>
+                </ol>
+            </div>
+        </article>
+
+        <hr class="my-3 mx-5 p-1">
+
+        <input type="text" placeholder="Válasz:">
+
+        <hr class="my-3 mx-5 p-1">
+
+
+        <h2 id="h2-4">A komplex számok jelölésére használt kifejezés</h2>
+
+
+        <article class="row sorkizart">
+            <div class="col-12">
+                <ol>
+                    <li>z = 0 + b</li>
+                    <li>z = a + bi</li>
+                    <li>z = ai + bi</li>
+                    <li>z = (a + b)i</li>
+                </ol>
+            </div>
+        </article>
+
+        <hr class="my-3 mx-5 p-1">
+
+        <input type="text" placeholder="Válasz:">
+
+        <hr class="my-3 mx-5 p-1">
+
+
+        <h2 id="h2-5">A komplex számok ábrázolására használt síkot hogyan szokás nevezni?</h2>
+
+
+        <article class="row sorkizart">
+            <div class="col-12">
+                <ol>
+                    <li id="li5">Gauss-féle számsík</li>
+                    <li id="li6">Neumann sík</li>
+                    <li id="li7">Descartes-féle sík</li>
+                    <li id="li8">Cardano-féle számsík</li>
+                </ol>
+            </div>
+        </article>
+
+        <hr class="my-3 mx-5 p-1">
+
+        <input type="text" placeholder="Válasz:">
+
+        <hr class="my-3 mx-5 p-1">
+
+
+        <h2 id="h2-6">A z<sub>1</sub> = a<sub>1</sub> + b<sub>1</sub>i és z<sub>2</sub> = a<sub>2</sub> + b<sub>2</sub>i komplex számok összege</h2>
+
+
+        <article class="row sorkizart">
+            <div class="col-12">
+                <ol>
+                    <li>a<sub>1</sub> + a<sub>2</sub> + b<sub>1</sub> + b<sub>2</sub></li>
+                    <li>(a<sub>1</sub> + b<sub>1</sub>) + (a<sub>2</sub> + b<sub>2</sub>)i</li>
+                    <li>(a<sub>1</sub> + a<sub>2</sub>) + (b<sub>1</sub> + b<sub>2</sub>)i</li>
+                    <li>(a<sub>1</sub> + a<sub>2</sub>)i + (b<sub>1</sub> + b<sub>2</sub>)i</li>
+                </ol>
+            </div>
+        </article>
+
+        <hr class="my-3 mx-5 p-1">
+
+        <input type="text" placeholder="Válasz:">
+
+        <hr class="my-3 mx-5 p-1">
+
+
+        <h2 id="h2-7">Mire NEM használjuk a komplex számokat?</h2>
+
+
+        <article class="row sorkizart">
+            <div class="col-12">
+                <ol>
+                    <li id="li9">Kombinatorika</li>
+                    <li id="li10">Egyenletek megoldása</li>
+                    <li id="li11">Geometriai alakzatok, valós függvények megértése</li>
+                    <li id="li12">Kvantummechanika</li>
+                </ol>
+            </div>
+        </article>
+
+        <hr class="my-3 mx-5 p-1">
+
+        <input type="text" placeholder="Válasz:">
+
+        <hr class="my-3 mx-5 p-1">
+
+        <button onclick="Translation()"><img src="Translate.png" alt="Translation" class="img-fluid" style="width: 10%;"></button>
+    </main>
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+    <footer class="container content my-5 py-1">
+        <article class="row">
+            <div class="col-4 my-auto">
+                <h3>Kiss Bálint</h3>
+            </div>
+            <div class="col-4 my-auto">
+                <h3>Németh Ákos</h3>
+            </div>
+            <div class="col-4 my-auto">
+                <h3>Vass Norbert</h3>
+            </div>
+        </article>
+    </footer>
 </body>
 
 </html>
