@@ -23,6 +23,11 @@ function Translation() {
         document.getElementById("li10").innerHTML = "Solving equations";
         document.getElementById("li11").innerHTML = "Understanding geometry shapes and real functions";
         document.getElementById("li12").innerHTML = "Quantum mechanics";
+        document.getElementsByClassName("qu0").innerText = "Answers:";
+        document.getElementsByClassName("qu1").innerHTML = "1. Answer";
+        document.getElementsByClassName("qu2").innerHTML = "2. Answer";
+        document.getElementsByClassName("qu3").innerHTML = "3. Answer";
+        document.getElementsByClassName("qu4").innerHTML = "4. Answer";
         lang = false;
     } else {
         document.getElementById("h1").innerHTML = "Komplex számok - kérdések";
@@ -45,6 +50,11 @@ function Translation() {
         document.getElementById("li10").innerHTML = "Egyenletek megoldása";
         document.getElementById("li11").innerHTML = "Geometriai alakzatok, valós függvények megértése";
         document.getElementById("li12").innerHTML = "Kvantummechanika";
+        document.getElementsByClassName("qu0").innerHTML = "Válaszok:";
+        document.getElementsByClassName("qu1").innerHTML = "1. Válasz";
+        document.getElementsByClassName("qu2").innerHTML = "2. Válasz";
+        document.getElementsByClassName("qu3").innerHTML = "3. Válasz";
+        document.getElementsByClassName("qu4").innerHTML = "4. Válasz";
         lang = true;
     }
 }

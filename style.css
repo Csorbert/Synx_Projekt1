@@ -53,3 +53,7 @@ hr {
 .sorkizart {
     text-align: justify;
 }
+
+.justify-content-center {
+    display: grid;
+}
