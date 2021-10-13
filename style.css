@@ -57,3 +57,7 @@ hr {
 .justify-content-center {
     display: grid;
 }
+.jobb{
+    float: right;
+    max-width: 300px;
+}
