@@ -1,6 +1,106 @@
 var lang = true;
 // If it is Hungarian, lang is True
 
+// Válaszok: 1-D, 2-C, 3-A, 4-B, 5-A, 6-C, 7-A
+
+function K1() {
+    var valasz = document.getElementById("K1");
+
+    if (valasz.value == "4") {
+        document.getElementById("K1B").classList.remove("btn-secondary");
+        document.getElementById("K1B").classList.remove("btn-danger");
+        document.getElementById("K1B").classList.add("btn-success")
+    } else {
+        document.getElementById("K1B").classList.remove("btn-secondary");
+        document.getElementById("K1B").classList.remove("btn-success");
+        document.getElementById("K1B").classList.add("btn-danger")
+    }
+}
+
+function K2() {
+    var valasz = document.getElementById("K2");
+
+    if (valasz.value == "3") {
+        document.getElementById("K2B").classList.remove("btn-secondary");
+        document.getElementById("K2B").classList.remove("btn-danger");
+        document.getElementById("K2B").classList.add("btn-success")
+    } else {
+        document.getElementById("K2B").classList.remove("btn-secondary");
+        document.getElementById("K2B").classList.remove("btn-success");
+        document.getElementById("K2B").classList.add("btn-danger")
+    }
+}
+
+function K3() {
+    var valasz = document.getElementById("K3");
+
+    if (valasz.value == "1") {
+        document.getElementById("K3B").classList.remove("btn-secondary");
+        document.getElementById("K3B").classList.remove("btn-danger");
+        document.getElementById("K3B").classList.add("btn-success")
+    } else {
+        document.getElementById("K3B").classList.remove("btn-secondary");
+        document.getElementById("K3B").classList.remove("btn-success");
+        document.getElementById("K3B").classList.add("btn-danger")
+    }
+}
+
+function K4() {
+    var valasz = document.getElementById("K4");
+
+    if (valasz.value == "2") {
+        document.getElementById("K4B").classList.remove("btn-secondary");
+        document.getElementById("K4B").classList.remove("btn-danger");
+        document.getElementById("K4B").classList.add("btn-success")
+    } else {
+        document.getElementById("K4B").classList.remove("btn-secondary");
+        document.getElementById("K4B").classList.remove("btn-success");
+        document.getElementById("K4B").classList.add("btn-danger")
+    }
+}
+
+function K5() {
+    var valasz = document.getElementById("K5");
+
+    if (valasz.value == "1") {
+        document.getElementById("K5B").classList.remove("btn-secondary");
+        document.getElementById("K5B").classList.remove("btn-danger");
+        document.getElementById("K5B").classList.add("btn-success")
+    } else {
+        document.getElementById("K5B").classList.remove("btn-secondary");
+        document.getElementById("K5B").classList.remove("btn-success");
+        document.getElementById("K5B").classList.add("btn-danger")
+    }
+}
+
+function K6() {
+    var valasz = document.getElementById("K6");
+
+    if (valasz.value == "3") {
+        document.getElementById("K6B").classList.remove("btn-secondary");
+        document.getElementById("K6B").classList.remove("btn-danger");
+        document.getElementById("K6B").classList.add("btn-success")
+    } else {
+        document.getElementById("K6B").classList.remove("btn-secondary");
+        document.getElementById("K6B").classList.remove("btn-success");
+        document.getElementById("K6B").classList.add("btn-danger")
+    }
+}
+
+function K7() {
+    var valasz = document.getElementById("K7");
+
+    if (valasz.value == "1") {
+        document.getElementById("K7B").classList.remove("btn-secondary");
+        document.getElementById("K7B").classList.remove("btn-danger");
+        document.getElementById("K7B").classList.add("btn-success")
+    } else {
+        document.getElementById("K7B").classList.remove("btn-secondary");
+        document.getElementById("K7B").classList.remove("btn-success");
+        document.getElementById("K7B").classList.add("btn-danger")
+    }
+}
+
 function Translation() {
     if (lang) {
         document.getElementById("h1").innerHTML = "Complex numbers - query";
@@ -23,11 +123,32 @@ function Translation() {
         document.getElementById("li10").innerHTML = "Solving equations";
         document.getElementById("li11").innerHTML = "Understanding geometry shapes and real functions";
         document.getElementById("li12").innerHTML = "Quantum mechanics";
-        document.getElementsByClassName("qu0").innerText = "Answers:";
-        document.getElementsByClassName("qu1").innerHTML = "1. Answer";
-        document.getElementsByClassName("qu2").innerHTML = "2. Answer";
-        document.getElementsByClassName("qu3").innerHTML = "3. Answer";
-        document.getElementsByClassName("qu4").innerHTML = "4. Answer";
+
+        var qu0 = document.getElementsByClassName("qu0");
+        for (var i = 0; i < qu0.length; i++) {
+        qu0[i].innerHTML = "Check";
+        }
+
+        var qu1 = document.getElementsByClassName("qu1");
+        for (var i = 0; i < qu1.length; i++) {
+        qu1[i].innerHTML = "1. Answer";
+        }
+
+        var qu2 = document.getElementsByClassName("qu2");
+        for (var i = 0; i < qu2.length; i++) {
+        qu2[i].innerHTML = "2. Answer";
+        }
+
+        var qu3 = document.getElementsByClassName("qu3");
+        for (var i = 0; i < qu3.length; i++) {
+        qu3[i].innerHTML = "3. Answer";
+        }
+
+        var qu4 = document.getElementsByClassName("qu4");
+        for (var i = 0; i < qu4.length; i++) {
+        qu4[i].innerHTML = "4. Answer";
+        }
+
         lang = false;
     } else {
         document.getElementById("h1").innerHTML = "Komplex számok - kérdések";
@@ -55,6 +176,32 @@ function Translation() {
         document.getElementsByClassName("qu2").innerHTML = "2. Válasz";
         document.getElementsByClassName("qu3").innerHTML = "3. Válasz";
         document.getElementsByClassName("qu4").innerHTML = "4. Válasz";
+
+        var qu0 = document.getElementsByClassName("qu0");
+        for (var i = 0; i < qu0.length; i++) {
+        qu0[i].innerHTML = "Ellenőrzés";
+        }
+
+        var qu1 = document.getElementsByClassName("qu1");
+        for (var i = 0; i < qu1.length; i++) {
+        qu1[i].innerHTML = "1. Válasz";
+        }
+
+        var qu2 = document.getElementsByClassName("qu2");
+        for (var i = 0; i < qu2.length; i++) {
+        qu2[i].innerHTML = "2. Válasz";
+        }
+
+        var qu3 = document.getElementsByClassName("qu3");
+        for (var i = 0; i < qu3.length; i++) {
+        qu3[i].innerHTML = "3. Válasz";
+        }
+
+        var qu4 = document.getElementsByClassName("qu4");
+        for (var i = 0; i < qu4.length; i++) {
+        qu4[i].innerHTML = "4. Válasz";
+        }
+
         lang = true;
     }
 }

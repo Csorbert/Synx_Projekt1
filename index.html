@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Komplex számok</title>
+</head>
+
+<body>
+    <div class="background"></div>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark p-3">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand text-white">Komplex Számok</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" id="active">Kezdőlap</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Komplex_eng.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Komplex_query.html">Kérdések</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container content my-5 py-2">
+        <h1>Komplex számok</h1>
+    </header>
+
+    <main class="container content">
+        <br>
+        <hr class="my-3 mx-5 p-1">
+
+
+        <h2>Miért jött létre?</h2>
+
+        <article class="row sorkizart">
+            <p class="col-12">Tanulmányaink során először csak a természetes számokat ismertük meg, majd használni
+                kezdtük a törteket, tizedes törteket és a negatív számokat. A valós számok fogalmát is megtanultuk.</p>
+        </article>
+
+        <article class="row sorkizart">
+            <p class="col-12 col-md-8">A számkörbővítésekre mindig azért volt szükség, hogy minden esetben elvégezhetőek legyenek
+                a matematikai
+                alapműveletek. A negatív számokra azért lett szükség, hogy el tudjuk végezni az ilyen kivonásokat is 3 –
+                8 és ne
+                csak az ilyeneket 9 − 5
+                <br>
+                A racionális számok az osztás miatt jelentek meg, hiszen a 3 : 5 osztásnak nincs megoldása az egész
+                számok
+                halmazán.
+                <br>
+                A valós számok halmazán pedig a gyökvonás művelete korlátozott.
+                <br>
+                A komplex számok bevezetése után a negatív számokból is lehetővé vált a négyzetgyökvonás √(-5).
+                Nincs olyan r valós szám, melyre r<sup>2</sup> = −1.
+            </p>
+            <div class="col-4">
+                <img src="Halmazábra.png" alt="Halmazábra" class="img-fluid middle d-none d-md-block">
+            </div>
+        </article>
+
+        <article class="row sorkizart">
+            <p class="col-8">A valós számok és a számegyenes pontjai között kölcsönösen egyértelmű leképezés
+                létesíthető, a számfogalom további bővítése egy dimenzióban már nem lehetséges.</p>
+        </article>
+    
+        <article class="row sorkizart">
+            <p class="col-8">Szükség lett egy olyan számhalmazra, amely eleget tesz a következő kívánalmaknak:</p>
+        </article>
+    
+        <article class="row sorkizart">
+            <div class="col-8">
+                <ul>
+                    <li>elvégezhető benne a négy alapművelet a szokásos műveleti tulajdonságokkal;</li>
+                    <li>tartalmazza a valós számok halmazát úgy, hogy az alapműveletek a valós számokon a megszokott módon működjenek;</li>
+                    <li>korlátlanul lehessen benne gyököt vonni.</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <img src="komplex_1.png" alt="Leképzés két dimenzióban" class="img-fluid middle d-none d-md-block">
+            </div>
+        </article>
+
+        <hr class="my-3 mx-5 p-1">
+
+
+        <h2>Története</h2>
+
+        <article class="row sorkizart">
+            <p class="col-12 col-md-8">A 16. században olasz matematikusok versengtek a harmadfokú egyenlet megoldóképletének
+                felfedezéséért. Girolamo Cardano 1547-ben publikálta eredményét. Valójában a megoldást egymástól
+                függetlenül Scipione del Ferro és Nicolo Fontana, Tartaglia fedezték fel. Cardano a megoldóképletet
+                Tartaglia-tól kapta, szigorú titoktartást ígérve. Rafael Bombelli zseniálisan használta a számolási
+                szabályokat és a √(-1) szimbólumot. Később Leonhard Euler folytatta a számításokat.</p>
+            <div class="col-4">
+                <img src="Komplex_szám_2.png" alt="Komplex szám kiszámolása" class="img-fluid middle d-none d-md-block">
+            </div>
+        </article>
+
+        <hr class="my-3 mx-5 p-1">
+
+
+        <h2>Mire használjuk?</h2>
+
+
+        <article class="row sorkizart">
+            <div class="col-12">
+                <ul>
+                    <li>Egyenletek megoldása</li>
+                    <li>Geometriai alakzatok, valós függvények megértése</li>
+                    <li>Fizika (folyadékok áramlása, kvantummechanika, a téridő szerkezete)</li>
+                </ul>
+            </div>
+        </article>
+
+        <hr class="my-3 mx-5 p-1">
+
+
+        <h2>Jelölések</h2>
+
+        <article class="row sorkizart">
+            <p class="col-12 col-md-8">A komplex számokat a sík pontjaival, illetve a pontok helyvektoraival tudjuk szemléltetni.
+                A komplex számok ábrázolására használt síkot szokás komplex számsíknak, illetve Gauss-féle számsíknak
+                nevezni. Mivel a sík pontjait (és azok helyvektorait) egy valós számokból álló számpárral tudjuk leírni,
+                a komplex számok is leírhatók egy ilyen számpárral: z = (a, b).</p>
+            <div class="col-4">
+                <img src="komplex_2.png" alt="A komplex számpár" class="img-fluid middle d-none d-md-block">
+            </div>
+        </article>
+
+        <article class="row sorkizart">
+            <p class="col-12">Komplex számnak nevezzük az a + bi alakú kifejezéseket, ahol a és b valós számok.
+                <br>
+                A z = a + bi valós része Re(z) = a. A z = a + bi képzetes része Im(z) = b.
+            </p>
+        </article>
+
+        <hr class="my-3 mx-5 p-1">
+
+
+        <h2>Hogyan használjuk?</h2>
+
+
+        <article class="row sorkizart">
+            <p class="col-12"><b>Műveletek algebrai alakban megadott komplex számokkal:</b></p>
+        </article>
+
+        <article class="row sorkizart">
+            <p class="col-12">A z<sub>1</sub> = a<sub>1</sub> + b<sub>1</sub>i és z<sub>2</sub> = a<sub>2</sub> +
+                b<sub>2</sub>i komplex számok
+                <strong>összeg</strong>én az (a<sub>1</sub> + a<sub>2</sub>) + (b<sub>1</sub> + b<sub>2</sub>)i komplex
+                számot,
+                <strong>különbség</strong>én az
+                (a<sub>1</sub> − a<sub>2</sub>) + (b<sub>1</sub> − b<sub>2</sub>)i értjük.
+            </p>
+        </article>
+
+        <article class="row sorkizart">
+            <p class="col-12">A z<sub>1</sub> = a<sub>1</sub> + b<sub>1</sub>i és z<sub>2</sub> = a<sub>2</sub> +
+                b<sub>2</sub>i komplex számok
+                <strong>szorzat</strong>án az (a<sub>1</sub>a<sub>2</sub> − b<sub>1</sub>b<sub>2</sub>) +
+                (a<sub>1</sub>b<sub>2</sub> +
+                a<sub>2</sub>b<sub>1</sub>)i
+                komplex számotdsadsadsa
+                értjük.
+            </p>
+        </article>
+
+        <article class="row sorkizart">
+            <p class="col-12 col-md-8">Ha z<sub>1</sub>z = z<sub>2</sub> és z<sub>1</sub> ≠ 0, akkor z a z<sub>2</sub> és
+                z<sub>1</sub> komplex számok
+                <strong>hányados</strong>a: z = z<sub>2</sub>/z<sub>1</sub> .
+            </p>
+            <div class="col-4">
+                <img src="komplex_3.png" alt="Komplex számok összege" class="img-fluid middle d-none d-md-block">
+            </div>
+        </article>
+
+        <article class="row sorkizart">
+            <div class="col-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Neve</th>
+                            <th scope="col">Jele</th>
+                            <th scope="col">Példák</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">Természetes számok</th>
+                            <td>N</td>
+                            <td>0; 4; 895</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Egész számok</th>
+                            <td>Z</td>
+                            <td>-7; -47</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Racionális számok</th>
+                            <td>Q</td>
+                            <td>7/3; 2,54; 2/15; 3,87</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Valós számok</th>
+                            <td>R</td>
+                            <td>√2; π</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Komplex számok</th>
+                            <td>C</td>
+                            <td>a + bi</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </article>
+
+        <hr class="my-3 mx-5 p-1">
+        <br>
+
+    </main>
+
+    <footer class="container content my-5 py-1">
+        <article class="row">
+            <div class="col-4 my-auto">
+                <h3>Kiss Bálint</h3>
+            </div>
+            <div class="col-4 my-auto">
+                <h3>Németh Ákos</h3>
+            </div>
+            <div class="col-4 my-auto">
+                <h3>Vass Norbert</h3>
+            </div>
+        </article>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

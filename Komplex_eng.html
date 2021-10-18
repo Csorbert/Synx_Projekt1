@@ -4,32 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Complex numbers</title>
 </head>
 
 <body>
+    <div class="background"></div>
+
     <nav class="navbar navbar-expand-md navbar-dark bg-dark p-3">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand text-white">Komplex Számok</a>
             </div>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="Komplex_main.html">Kezdőlap</a>
+                        <a class="nav-link" href="index.html">Kezdőlap</a>
                     </li>
-        
+
                     <li class="nav-item">
                         <a class="nav-link" id="active">Home</a>
                     </li>
-        
+
                     <li class="nav-item">
                         <a class="nav-link" href="Komplex_query.html">Kérdések</a>
                     </li>
@@ -50,50 +54,60 @@
 
 
         <h2>Why do we need it?</h2>
-        
-        <img src="Halmazábra.png" alt="Heaps" class="img-fluid jobb d-none d-md-block">
+
 
         <article class="row sorkizart">
             <p class="col-12">
-                    During our studies, for the first, we learned about Natural numbers, but then we started using fractional
-                    numbers, decimal fractions and negative numbers. So we’ve learnt the concept of rational numbers.</p>
+                During our studies, for the first, we learned about Natural numbers, but then we started using
+                fractional
+                numbers, decimal fractions and negative numbers. So we’ve learnt the concept of rational numbers.</p>
         </article>
 
         <article class="row sorkizart">
-            <p class="col-12">
-                    We always need to expend the numbers to have the ability of doing the basic arithmetical operations. For example
-                    negative numbers were necessary to do substractions like 3 – 8 and not just the ones like 9 – 5
-                    <br>
-                    Rational numbers have appeared because of the division, like 3 : 5 doesn’t have a solution using the heap of
-                    whole numbers.
-                    <br>
-                    And with the usage of real numbers, the operation of evolution got some limits.
-                    <br>
-                    After the appearance of complex numbers, we can extract square root from negative numbers too √(-5).
-                    There is no real number, which is r<sup>2</sup> = −1.
-                </p>
-        </article>   
-
-        <img src="komplex_1.png" alt="Making it in two dimensions" class="img-fluid jobb d-none d-md-block">
-
-        <article class="row sorkizart">
-            <p class="col-12">        
-                <p>A mutually clear assignment can be established between the real numbers and the points of the number line,
-                    further expansion of the numbers is not possible in only one dimension.</p>
-        </article>
-        <article class="row sorkizart">
-            <p class="col-12"> 
-                    So it was needed to make a new heap, which meets the requirements below:</p>
+            <p class="col-12 col-md-8">
+                We always need to expend the numbers to have the ability of doing the basic arithmetical operations. For
+                example
+                negative numbers were necessary to do substractions like 3 – 8 and not just the ones like 9 – 5
+                <br>
+                Rational numbers have appeared because of the division, like 3 : 5 doesn’t have a solution using the
+                heap of
+                whole numbers.
+                <br>
+                And with the usage of real numbers, the operation of evolution got some limits.
+                <br>
+                After the appearance of complex numbers, we can extract square root from negative numbers too √(-5).
+                There is no real number, which is r<sup>2</sup> = −1.
+            <div class="col-4">
+                <img src="Halmazábra.png" alt="Heaps" class="img-fluid d-none d-md-block middle">
+            </div>
+            </p>
         </article>
 
+
+
         <article class="row sorkizart">
-            <div class="col-12"> 
+            <p class="col-12 col-md-8">
+            <p>A mutually clear assignment can be established between the real numbers and the points of the number
+                line,
+                further expansion of the numbers is not possible in only one dimension.</p>
+        </article>
+        <article class="row sorkizart">
+            <p class="col-12 col-md-8">
+                So it was needed to make a new heap, which meets the requirements below:</p>
+        </article>
+
+        <article class="row sorkizart">
+            <div class="col-12 col-md-8">
                 <ul>
                     <li>The four basic operations can be executed with the usual operational properties;</li>
-                    <li>It contains the heap of real numbers, in a way that the basic operations can be executed on real numbers
+                    <li>It contains the heap of real numbers, in a way that the basic operations can be executed on real
+                        numbers
                         with the usual behaviour;</li>
                     <li>And root can be extracted without any limitations.</li>
                 </ul>
+            </div>
+            <div class="col-4">
+                <img src="komplex_1.png" alt="Making it in two dimensions" class="img-fluid middle d-none d-md-block">
             </div>
         </article>
 
@@ -103,15 +117,22 @@
 
         <h2>History</h2>
 
-        <img src="Komplex_szám_2.png" alt="Calculation of complex numbers" class="img-fluid jobb d-none d-md-block">
 
         <article class="row sorkizart">
-            <p class="col-12"> 
-            In the 16th century, Italian mathematicians were in a war to discover the quadratic equations solving formula. In
-            1547, Cardano Girolamo published his results. In reality, independently from each other Del Ferro Scipione,
-            Fontana Nicolo and Tartaglia discovered the formula first. Cardano got the formula from Tartaglia, promising
-            strict secrecy. Bombelli Rafael used these formulas brilliantly, and the √(-1) symbol. Later on, Euler Leonhard
-            continued with these calculations.</p>
+            <p class="col-12 col-md-8">
+                In the 16th century, Italian mathematicians were in a war to discover the quadratic equations solving
+                formula. In
+                1547, Cardano Girolamo published his results. In reality, independently from each other Del Ferro
+                Scipione,
+                Fontana Nicolo and Tartaglia discovered the formula first. Cardano got the formula from Tartaglia,
+                promising
+                strict secrecy. Bombelli Rafael used these formulas brilliantly, and the √(-1) symbol. Later on, Euler
+                Leonhard
+                continued with these calculations.</p>
+            <div class="col-4">
+                <img src="Komplex_szám_2.png" alt="Calculation of complex numbers"
+                    class="img-fluid middle d-none d-md-block">
+            </div>
         </article>
 
 
@@ -121,7 +142,7 @@
         <h2>Where do we use it?</h2>
 
         <article class="row sorkizart">
-            <div class="col-12"> 
+            <div class="col-12">
                 <ul>
                     <li>Solving equations</li>
                     <li>Understanding geometrical shapes and real functions</li>
@@ -136,20 +157,25 @@
 
         <h2>Markings</h2>
 
-        <img src="Komplex_szám.png" alt="The complex number pairs" class="img-fluid jobb d-none d-md-block">
 
         <article class="row sorkizart">
-            <p class="col-12"> 
-            We can visualize complex numbers with points and the points vectors on a plane.
-            The plane we use to represent the complex numbers is often referred to as the complex number plane, or in other
-            words, the Gauss-like number plane. Because we can write down these plane points (and the vectors of these) with
-            a pair of real numbers, the complex numbers can be also written by the following pair of „numbers”: z = (a, b).</p>
+            <p class="col-12 col-md-8">
+                We can visualize complex numbers with points and the points vectors on a plane.
+                The plane we use to represent the complex numbers is often referred to as the complex number plane, or
+                in other
+                words, the Gauss-like number plane. Because we can write down these plane points (and the vectors of
+                these) with
+                a pair of real numbers, the complex numbers can be also written by the following pair of „numbers”: z =
+                (a, b).</p>
+            <div class="col-4">
+                <img src="Komplex_szám.png" alt="The complex number pairs" class="img-fluid middle d-none d-md-block">
+            </div>
         </article>
 
         <article class="row sorkizart">
-            <p class="col-12"> 
-            We call a + bi formulas and expressions complex numbers, where a and b are both real numbers.<br>
-            The real part of z = a + bi is Re(z) = a. The imaginary part of z = a + bi is Im(z) = b.</p>
+            <p class="col-12">
+                We call a + bi formulas and expressions complex numbers, where a and b are both real numbers.<br>
+                The real part of z = a + bi is Re(z) = a. The imaginary part of z = a + bi is Im(z) = b.</p>
         </article>
 
 
@@ -159,79 +185,83 @@
         <h2>How do we use it?</h2>
 
         <article class="row sorkizart">
-        <p class="col-12"> 
-            <b>Operations with complex numbers in algebraic form:</b></p>
-        </article>
-        
-        <img src="komplex_3.png" alt="Summary of complex numbers" class="img-fluid jobb d-none d-md-block">
-
-        <article class="row sorkizart">
-            <p class="col-12"> 
-            The z<sub>1</sub> = a<sub>1</sub> + b<sub>1</sub>i and z<sub>2</sub> = a<sub>2</sub> + b<sub>2</sub>i
-            <strong>summary</strong> of complex numbers (a<sub>1</sub> + a<sub>2</sub>) + (b<sub>1</sub> + b<sub>2</sub>)i
-            means that, and the <strong>substraction</strong>
-            (a<sub>1</sub> − a<sub>2</sub>) + (b<sub>1</sub> − b<sub>2</sub>)i means that.</p>
+            <p class="col-12">
+                <b>Operations with complex numbers in algebraic form:</b></p>
         </article>
 
         <article class="row sorkizart">
-            <p class="col-12"> 
-            The z<sub>1</sub> = a<sub>1</sub> + b<sub>1</sub>i and z<sub>2</sub> = a<sub>2</sub> + b<sub>2</sub>i
-            <strong>multiplication</strong> of complex numbers (a<sub>1</sub>a<sub>2</sub> − b<sub>1</sub>b<sub>2</sub>) +
-            (a<sub>1</sub>b<sub>2</sub> +
-            a<sub>2</sub>b<sub>1</sub>)i
-            means that.</p>
+            <p class="col-12">
+                The z<sub>1</sub> = a<sub>1</sub> + b<sub>1</sub>i and z<sub>2</sub> = a<sub>2</sub> + b<sub>2</sub>i
+                <strong>summary</strong> of complex numbers (a<sub>1</sub> + a<sub>2</sub>) + (b<sub>1</sub> +
+                b<sub>2</sub>)i
+                means that, and the <strong>substraction</strong>
+                (a<sub>1</sub> − a<sub>2</sub>) + (b<sub>1</sub> − b<sub>2</sub>)i means that.</p>
         </article>
 
         <article class="row sorkizart">
-            <p class="col-12"> 
-            If z<sub>1</sub>z = z<sub>2</sub> and z<sub>1</sub> ≠ 0, then z is z<sub>2</sub> and z<sub>1</sub> complex numbers'
-            <strong>quotient</strong>: z = z<sub>2</sub>/z<sub>1</sub>.</p>
+            <p class="col-12">
+                The z<sub>1</sub> = a<sub>1</sub> + b<sub>1</sub>i and z<sub>2</sub> = a<sub>2</sub> + b<sub>2</sub>i
+                <strong>multiplication</strong> of complex numbers (a<sub>1</sub>a<sub>2</sub> −
+                b<sub>1</sub>b<sub>2</sub>) +
+                (a<sub>1</sub>b<sub>2</sub> +
+                a<sub>2</sub>b<sub>1</sub>)i
+                means that.</p>
+        </article>
+
+        <article class="row sorkizart">
+            <p class="col-12 col-md-8">
+                If z<sub>1</sub>z = z<sub>2</sub> and z<sub>1</sub> ≠ 0, then z is z<sub>2</sub> and z<sub>1</sub>
+                complex numbers'
+                <strong>quotient</strong>: z = z<sub>2</sub>/z<sub>1</sub>.</p>
+            <div class="col-4">
+                <img src="komplex_3.png" alt="Summary of Complex numbers" class="img-fluid middle d-none d-md-block">
+            </div>
         </article>
 
         <article class="row sorkizart">
             <div class="col-12">
-            <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">Name</th>
-                    <th scope="col">Sign</th>
-                    <th scope="col">Examples</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">Natural numbers</th>
-                    <td>N</td>
-                    <td>0; 4; 895</td>
-                </tr>
-                <tr>
-                    <th scope="row">Whole numbers</th>
-                    <td>Z</td>
-                    <td>-7; -47</td>
-                </tr>
-                <tr>
-                    <th scope="row">Rational numbers</th>
-                    <td>Q</td>
-                    <td>7/3; 2,54; 2/15; 3,87</td>
-                </tr>
-                <tr>
-                    <th scope="row">Real numbers</th>
-                    <td>R</td>
-                    <td>√2; π</td>
-                </tr>
-                <tr>
-                    <th scope="row">Complex numbers</th>
-                    <td>C</td>
-                    <td>a + bi</td>
-                </tr>
-            </tbody>
-            </table>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Sign</th>
+                            <th scope="col">Examples</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Natural numbers</th>
+                            <td>N</td>
+                            <td>0; 4; 895</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Whole numbers</th>
+                            <td>Z</td>
+                            <td>-7; -47</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Rational numbers</th>
+                            <td>Q</td>
+                            <td>7/3; 2,54; 2/15; 3,87</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Real numbers</th>
+                            <td>R</td>
+                            <td>√2; π</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Complex numbers</th>
+                            <td>C</td>
+                            <td>a + bi</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </article>
 
         <hr class="my-3 mx-5 p-1">
         <br>
-            
+
     </main>
 
     <footer class="container content my-5 py-1">

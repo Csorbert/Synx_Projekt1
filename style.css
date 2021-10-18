@@ -1,6 +1,17 @@
 body {
     font-size: 125%;
-    background: greenyellow;
+}
+
+.background {
+    background-image: url(bg.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: fixed;
+    height: 100%;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
 }
 
 .navbar-brand {
@@ -18,7 +29,7 @@ h2 {
     font-size: 200%;
 }
 
-.navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link:link {
     color: white;
     transition-duration: 0.5s;
 }
@@ -60,4 +71,10 @@ hr {
 .jobb{
     float: right;
     max-width: 300px;
+}
+
+.middle {
+    margin: auto;
+    border: 2px black solid;
+    border-radius: 20px;
 }
