@@ -103,6 +103,7 @@ function K7() {
 
 function Translation() {
     if (lang) {
+        document.getElementById("sources").innerHTML = "Sources";
         document.getElementById("h1").innerHTML = "Complex numbers - query";
         document.getElementById("h2-1").innerHTML = "With what letter do we represent complex numbers?";
         document.getElementById("h2-2").innerHTML = "Why do we need complex numbers?";
@@ -151,6 +152,7 @@ function Translation() {
 
         lang = false;
     } else {
+        document.getElementById("sources").innerHTML = "Források";
         document.getElementById("h1").innerHTML = "Komplex számok - kérdések";
         document.getElementById("h2-1").innerHTML = "Milyen betűvel jelöljük a komplex számok halmazát?";
         document.getElementById("h2-2").innerHTML = "Miért volt szükség a komplex számokra?";

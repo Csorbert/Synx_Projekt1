@@ -38,6 +38,15 @@ h2 {
     color: cyan;
 }
 
+.forras {
+    text-decoration: none;
+    color: #212529;
+}
+
+.forras:visited {
+    color: red;
+}
+
 .navbar-collapse {
     flex-grow: 0;
 }
