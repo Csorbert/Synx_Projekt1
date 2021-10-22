@@ -107,10 +107,10 @@ function Translation() {
         document.getElementById("h1").innerHTML = "Complex numbers - query";
         document.getElementById("h2-1").innerHTML = "With what letter do we represent complex numbers?";
         document.getElementById("h2-2").innerHTML = "Why do we need complex numbers?";
-        document.getElementById("h2-3").innerHTML = "Which matematican did not compete in discovering the quadratic equations solving formula?";
-        document.getElementById("h2-4").innerHTML = "The term we use to express complex numbers";
-        document.getElementById("h2-5").innerHTML = "How do we call the plane that we represent the complex numbers on?";
-        document.getElementById("h2-6").innerHTML = "The sum of the following complex numbers z<sub>1</sub> = a<sub>1</sub> + b<sub>1</sub>i and z<sub>2</sub> = a <sub> 2</sub> + b <sub> 2</sub> i is: ";
+        document.getElementById("h2-3").innerHTML = "Which mathematician did not compete in discovering the quadratic equations solving formula?";
+        document.getElementById("h2-4").innerHTML = "Which is the term we use to express complex numbers?";
+        document.getElementById("h2-5").innerHTML = "How do we call the plane that we represent the complex numbers with?";
+        document.getElementById("h2-6").innerHTML = "Which is the sum of the following complex numbers z<sub>1</sub> = a<sub>1</sub> + b<sub>1</sub>i and z<sub>2</sub> = a <sub> 2</sub> + b <sub> 2</sub> i is: ";
         document.getElementById("h2-7").innerHTML = "What do we NOT use the complex numbers for?";
         document.getElementById("li1").innerHTML = "So that we can always subtract.";
         document.getElementById("li2").innerHTML = "So that they can give the result of the division.";
@@ -157,9 +157,9 @@ function Translation() {
         document.getElementById("h2-1").innerHTML = "Milyen betűvel jelöljük a komplex számok halmazát?";
         document.getElementById("h2-2").innerHTML = "Miért volt szükség a komplex számokra?";
         document.getElementById("h2-3").innerHTML = "Melyik matematikus NEM versengett a harmadfokú egyenlet megoldóképletének felfedezéséért?";
-        document.getElementById("h2-4").innerHTML = "A komplex számok jelölésére használt kifejezés";
+        document.getElementById("h2-4").innerHTML = "A komplex számok jelölésére használt kifejezés?";
         document.getElementById("h2-5").innerHTML = "A komplex számok ábrázolására használt síkot hogyan szokás nevezni?";
-        document.getElementById("h2-6").innerHTML = "A z<sub>1</sub> = a<sub>1</sub> + b<sub>1</sub>i és z<sub>2</sub> = a<sub>2</sub> + b<sub>2</sub>i komplex számok összege";
+        document.getElementById("h2-6").innerHTML = "A z<sub>1</sub> = a<sub>1</sub> + b<sub>1</sub>i és z<sub>2</sub> = a<sub>2</sub> + b<sub>2</sub>i komplex számok összege:";
         document.getElementById("h2-7").innerHTML = "Mire NEM használjuk a komplex számokat?";
         document.getElementById("li1").innerHTML = "Mindig elvégezhető legyen a kivonás.";
         document.getElementById("li2").innerHTML = "Azért, hogy az osztások eredményét meg tudják adni.";
